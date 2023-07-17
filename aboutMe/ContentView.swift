@@ -19,6 +19,7 @@ struct ContentView: View {
             Button(action: {showBio.toggle()})
             {
                 Text("Click to learn more about me!")
+                    .font(.title)
             }
             .tint(.purple)
             .buttonStyle(.borderedProminent)
